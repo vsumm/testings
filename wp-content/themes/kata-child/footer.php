@@ -32,9 +32,7 @@
 
 </div> <!-- end #kata-site -->
 <?php wp_footer(); ?>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
 <input type="text" name="datefilter" value="" />
 
 <script type="text/javascript">
