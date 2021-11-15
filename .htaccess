@@ -13,7 +13,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /vtest/index.php [L]
 </IfModule>
 
-php_value max_execution_time 6000
+
 
 # END WordPress
 
