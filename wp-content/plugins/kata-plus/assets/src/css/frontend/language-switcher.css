@@ -1,0 +1,22 @@
+.kata-language-switcher ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.kata-language-switcher li a {
+    color: #403cf2;
+}
+
+.kata-language-switcher .wpml-ls-statics-post_translations .wpml-ls-flag {
+    margin-bottom: 0;
+}
+
+.kata-language-switcher .wpml-ls-legacy-dropdown .wpml-ls-sub-menu li {
+    width: 100%
+}
+
+.kata-language-switcher .nice-select ul li {
+    display: block;
+    margin: 0;
+}

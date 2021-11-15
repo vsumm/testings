@@ -1,0 +1,55 @@
+.kata-plus-shop-categories {
+    background: #fff;
+}
+
+.kata-plus-shop-categories li {
+    list-style: none;
+    color: #808182;
+    margin-top: 10px;
+    position: relative;
+    background: inherit;
+}
+
+.kata-plus-shop-categories li.cat-item:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 98%;
+    background: #e4e4e4;
+    left: 0;
+    top: 13px;
+}
+
+.kata-plus-shop-categories li.cat-item ul,
+.kata-plus-shop-categories li.cat-item li {
+    background: inherit;
+}
+
+.kata-plus-shop-categories li.categories>ul {
+    margin-left: 0;
+    background: inherit;
+}
+
+.kata-plus-shop-categories li a {
+    color: inherit;
+    z-index: 2;
+    position: relative;
+    background: inherit;
+    padding-right: 10px;
+}
+
+.kata-plus-shop-categories .kata-post-count {
+    float: right;
+    background: #e4e4e4;
+    color: #a2a2a2;
+    padding: 2px 6px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.kata-plus-shop-categories .children {
+    margin-left: 30px;
+}
+.kata-plus-shop-categories .inline-cat-item {
+    margin-right: 5px;
+}

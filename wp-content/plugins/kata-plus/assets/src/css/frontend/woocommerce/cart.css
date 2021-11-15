@@ -1,0 +1,138 @@
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+    max-width: 48%;
+}
+
+.kata-plus-empty-cart .woocommerce {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media(max-width:1024px) {
+    .kata-plus-empty-cart .woocommerce {
+        max-width: 96%;
+    }
+}
+
+.woocommerce-cart .woocommerce {
+    margin-top: 50px;
+}
+
+/* Cart */
+.woocommerce .cart_totals h2 {
+    color: #404142;
+    border-bottom: 1px solid #E2E3E4;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-bottom: 45px;
+    padding-bottom: 5px
+}
+
+.woocommerce table.shop_table {
+    border: none;
+}
+
+.woocommerce table.shop_table th {
+    border-bottom: solid 1px #F0F1F2;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0
+}
+
+.woocommerce table.shop_table .product-name a {
+    font-weight: 500;
+    color: #404142;
+    font-size: 15px;
+    transition: all ease 300ms;
+}
+
+.woocommerce table.shop_table .product-name a:hover {
+    color: #000;
+}
+
+.woocommerce table.shop_table td {
+    border-bottom: solid 1px #F0F1F2;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0
+}
+
+.woocommerce a.checkout-button.button.alt.wc-forward {
+    background-color: #313233;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.30em;
+    border-radius: 0;
+}
+
+.woocommerce input#coupon_code {
+    color: #000000;
+    background-color: #F0F1F2;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    width: 150px;
+    height: 48px;
+    margin-right: 15px;
+    padding: 0 15px;
+}
+
+.woocommerce .cart .button,
+.woocommerce .cart input.button {
+    color: #000000;
+    background-color: #F0F1F2;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+    padding: 12px 43px;
+    transition: all ease 300ms
+}
+
+@media (max-width: 480px) {
+
+    .woocommerce .cart .button,
+    .woocommerce .cart input.button {
+        padding: 12px !important;
+        width: 100% !important
+    }
+
+    .woocommerce input#coupon_code {
+        width: 100%;
+        margin-bottom: 10px
+    }
+}
+
+.woocommerce tr.cart-subtotal,
+.woocommerce tr.woocommerce-shipping-totals.shipping {
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.woocommerce .cart_totals {
+    margin-bottom: 100px
+}
+
+.woocommerce .cart_totals tr th {
+    color: #000000;
+    font-weight: 400 !important;
+}
+
+.woocommerce tr.order-total {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.6em;
+}
+
+.woocommerce a.remove {
+    font-size: 18px;
+    font-weight: 300;
+    color: #949596 !important
+}
+
+.woocommerce .related.products ul.products li.product .button {
+    display: none;
+}

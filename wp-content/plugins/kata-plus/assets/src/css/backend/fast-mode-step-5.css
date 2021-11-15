@@ -1,0 +1,162 @@
+/**
+ * Kata Fast Mode style step 4.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+.kata_page_kata-plus-fast-mode .kt-fst-mod-wrapper {
+    max-width: 824px;
+}
+
+.kt-fst-get-info-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.kt-fst-get-info:not(.full-width) {
+    float: left;
+    width: 47%;
+    position: relative;
+}
+
+.kt-fst-get-info:nth-child(2) {
+    transform: translateX(51px);
+}
+
+.kt-fst-get-info label {
+    display: block;
+    color: #8b949f;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 9px;
+    line-height: 1.4;
+}
+
+.kt-fst-get-info input[type="text"] {
+    display: block;
+    color: #8b949f;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 52px;
+    margin-right: 52px;
+    width: 100%;
+    background-color: #fff;
+    border-color: #e7e8e9;
+    border-radius: 2px;
+    padding: 15px 25px;
+    opacity: 0.5;
+}
+
+.kt-fst-get-info.full-width input[type="text"] {
+    max-width: 91%;
+}
+
+.kt-fst-get-info.full-width input[type="text"]:last-child {
+    margin-bottom: 0;
+}
+
+.kt-social-field-group {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.kt-fst-get-info.full-width {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.kt-social-field-add,
+.kt-social-field-minus {
+    background-color: #CCF8FF;
+    fill: #7feafb;
+    font-size: 36px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.kt-social-field-add {
+    z-index: 2;
+}
+
+.kt-social-field-minus {
+    right: -70px;
+    background-color: #ffcccc;
+    fill: #fb7f7f;
+}
+
+.kt-social-field-add i,
+.kt-social-field-minus i {
+    display: inline-block;
+    padding-top: 15px;
+}
+
+/* Footer
+-------------------------*/
+.kt-fst-mod-footer-area {
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    bottom: 92px;
+}
+
+.kt-fst-mod-footer-area .prev-step,
+.kt-fst-mod-footer-area .next-step {
+    background: #f7f8fa;
+    text-decoration: none;
+    padding: 10px 25px 10px 30px;
+    font-size: 20px;
+    border-radius: 60px;
+    color: #adb8b8;
+}
+
+.kt-fst-mod-footer-area .prev-step {
+    float: left;
+    margin-left: 80px;
+}
+
+.kt-fst-mod-footer-area .next-step {
+    float: right;
+    margin-right: 80px;
+    background-color: #ccf8ff;
+    color: #00D6F9;
+}
+
+.kt-fst-mod-footer-area .next-step .kata-icon,
+.kt-fst-mod-footer-area .prev-step .kata-icon {
+    vertical-align: middle;
+}
+
+.kt-fst-mod-footer-area .next-step .kata-icon {
+    fill: #00D6F9;
+    margin-left: 5px;
+}
+
+.kt-fst-mod-footer-area .prev-step .kata-icon {
+    fill: #adb8b8;
+}
+
+.kt-fst-mod-footer-area .prev-step:hover,
+.kt-fst-mod-footer-area .next-step:hover {
+    background-color: #e7e8e9;
+    color: #8b949f;
+}
+
+.kt-fst-mod-footer-area .prev-step:hover .kata-icon,
+.kt-fst-mod-footer-area .next-step:hover .kata-icon {
+    fill: #8b949f;
+}
+
+.kata_page_kata-plus-fast-mode #page-title {
+    margin-bottom: 143px;
+}

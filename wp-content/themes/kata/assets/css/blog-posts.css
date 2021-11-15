@@ -1,0 +1,942 @@
+/* Blog Posts */
+
+.kata-default-loop-content,
+.kata-sidebar,
+.kata-default-loop-content-single {
+    margin-top: 85px;
+    margin-bottom: 30px;
+}
+
+.kata-blog-post {
+    margin-bottom: 20px;
+}
+
+.kata-kata-right-sidebar {
+    padding-left: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+    .kata-sidebar.col-lg-3 {
+        width: 517px;
+        flex: unset;
+        max-width: unset;
+    }
+
+    .kata-sidebar.kata-right-sidebar {
+        padding-left: 80px;
+    }
+
+    .kata-sidebar.kata-left-sidebar {
+        padding-right: 60px;
+    }
+
+    .kata-default-loop-content,
+    .kata-default-loop-content-single {
+        width: calc(100% - 517px);
+        flex: unset;
+        max-width: unset;
+    }
+
+    .no-sidebar .kata-default-loop-content,
+    .no-sidebar .kata-default-loop-content-single {
+        width: 100%;
+    }
+
+    .kata-both-sidebar .kata-sidebar.col-lg-3 {
+        width: 517px;
+    }
+
+    .kata-both-sidebar .kata-default-loop-content-single,
+    .kata-both-sidebar .kata-default-loop-content {
+        width: calc(100% - 864px);
+        flex: unset;
+        max-width: unset;
+    }
+
+    .kata-both-sidebar .kata-sidebar.kata-right-sidebar {
+        padding-left: 30px;
+    }
+
+    .kata-both-sidebar .kata-sidebar.kata-left-sidebar {
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .kata-default-loop-content,
+    .kata-default-loop-content-single,
+    .kata-sidebar.col-lg-3.kata-left-sidebar,
+    .kata-sidebar.col-lg-3.kata-right-sidebar {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        flex: none;
+    }
+}
+
+.kata-widget .search-form input[type="submit"],
+.wp-block-search .wp-block-search__button {
+    padding: 10px 15px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    display: none;
+}
+
+.kata-widget ul li {
+    font-size: 15px;
+}
+
+.kata-post-thumbnail {
+    margin-bottom: 10px;
+}
+
+.kata-post-thumbnail:hover img {
+    opacity: 0.95;
+}
+
+.kata-post-thumbnail.col-sm-6 img {
+    width: 100%;
+}
+
+.kata-post-metadata {
+    padding: 5px 0;
+}
+
+.kata-post-categories {
+    margin-top: 40px;
+}
+
+.kata-category-links,
+.kata-tags-links,
+.kata-post-date,
+.kata-comments-number,
+.kata-post-author {
+    padding: 5px 15px 5px 0;
+    display: inline-block;
+}
+
+.kata-category-links,
+.kata-category-links a,
+.kata-tags-links a,
+.kata-post-date a,
+.kata-comments-number span,
+.kata-post-author a {
+    font-size: 14px;
+    color: #616263;
+    font-weight: 600;
+}
+
+.kata-category-links a:hover,
+.kata-tags-links a:hover,
+.kata-post-date a:hover span,
+.kata-post-author a:hover {
+    text-decoration: underline;
+}
+
+.kata-category-links i,
+.kata-tags-links i,
+.kata-post-date i,
+.kata-comments-number i,
+.kata-post-author i {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 3px;
+    fill: #403cf2;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+}
+
+.kata-post-author img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.kata-post-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kata-post-title,
+.kata-post-title a {
+    display: block;
+    color: #010203;
+    font-weight: 600;
+}
+
+.kata-post-title a:hover {
+    text-decoration: underline;
+}
+
+.kata-post-excerpt {
+    color: #414243;
+    font-size: 18px;
+    line-height: 1.75em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-family: 'Noto Serif',Arial,Roboto,sans-serif;
+}
+
+.kata-post-default-meta {
+    margin-top: 29px;
+}
+
+.kata-post-readmore {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.kata-post-pagination {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Post */
+.kata-default-post.sticky .kata-post-details {
+    background: #fff;
+    border: 1px solid #f0f1f2;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 1%);
+    padding: 30px 45px;
+}
+
+.kata-default-post .kata-post-categories a,
+.widget_categories-wrapper ul > li a,
+.widget_archive-wrapper ul > li a,
+.wp-block-archives > li > a,
+.wp-block-categories > li > a {
+    color: #000000 !important;
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #ffda00;
+    height: 28px;
+    padding-right: 12px;
+    padding-left: 18px;
+    position: relative;
+    margin: 0 2px 2px 0;
+}
+
+.kata-default-post .kata-post-categories a:hover,
+.widget_categories-wrapper ul > li a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.kata-default-post .kata-post-categories a:before,
+.kata-default-post .kata-post-categories a:after,
+.widget_categories-wrapper ul > li a:before,
+.widget_categories-wrapper ul > li a:after,
+.widget_archive-wrapper ul > li > a:before,
+.widget_archive-wrapper ul > li > a:after,
+.wp-block-archives > li > a:after,
+.wp-block-archives > li > a:before,
+.wp-block-categories > li > a:after,
+.wp-block-categories > li > a:before {
+    display: inline-block;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    width: 0;
+    height: 0;
+    margin-right: 2px;
+    content: "";
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #000;
+}
+
+.kata-default-post .kata-post-categories a:after,
+.widget_categories-wrapper ul > li a:after,
+.widget_archive-wrapper ul > li a:after,
+.wp-block-archives > li > a:after,
+.wp-block-categories > li > a:after {
+    content: "";
+    border-width: 3px;
+    top: 11px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ffda00;
+}
+
+.kata-default-post .kata-post-thumbnail {
+    margin: 0 auto 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.kata-default-post .kata-post-title h1,
+.kata-default-post .kata-post-title {
+    font-size: 40px;
+    color: #070809;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 0;
+}
+
+.kata-default-post .kata-post-title h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    word-break: break-word;
+    word-wrap: break-word;
+    margin-top: 7px;
+    margin-bottom: 28px;
+}
+
+.kata-default-post .kata-post-date-wrap span,
+.kata-default-post .kata-post-author-wrap span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.kata-default-post .kata-post-date-wrap .kata-post-date,
+.kata-default-post .kata-post-author-wrap .kata-post-author {
+    color: #929394;
+    font-size: 14px;
+}
+
+.kata-default-post .kata-post-content {
+    padding: 30px 0 50px;
+    font-size: 18px;
+    color: #333;
+    line-height: normal;
+}
+
+.kata-default-post.loop-two.format-quote .kata-post-excerpt {
+    background: #f7f8f9;
+    padding: 25px 20px 15px;
+    border-radius: 15px;
+}
+
+blockquote {
+    position: relative;
+    padding-left: 50px;
+    color: #505152;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.wp-block-pullquote blockquote {
+    padding-left: 0;
+}
+
+blockquote.wp-block-quote.is-style-large,
+blockquote.wp-block-quote.is-large {
+    margin-bottom: 35px;
+    padding-left: 50px;
+}
+
+blockquote p,
+.kata-post-content blockquote p,
+blockquote.wp-block-quote p,
+.kata-default-post.format-quote blockquote {
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.wp-block-quote.is-style-large p, 
+.wp-block-quote.is-large p {
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+blockquote cite {
+    color: #6d7071;
+    font-size: 86%;
+    font-weight: 600;
+    font-style: normal;
+    display: block;
+    font-family: Commissioner,system-ui,sans-serif;
+}
+
+blockquote.wp-block-quote.is-style-large cite {
+    text-align: left;
+}
+
+blockquote:before {
+    font-family: arial;
+    font-style: normal;
+    content: "\201C";
+    font-size: 100px;
+    color: #ffda00;
+    display: block;
+    position: absolute;
+    top: -12px;
+    left: 0;
+    line-height: 1;
+}
+
+blockquote.has-text-align-right {
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+blockquote.has-text-align-right:before {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+}
+
+.wp-block-pullquote blockquote:before {
+    float: none;
+    line-height: 0;
+    position: static;
+}
+
+:root .has-cyan-bluish-gray-background-color {
+    padding: 30px 20px;
+}
+
+.wp-block-pullquote.has-cyan-bluish-gray-background-color blockquote:before {
+    float: left;
+    line-height: 1.3;
+    margin-right: 10px;
+    top: 0;
+    margin-top: -12px;
+}
+
+.wp-block-pullquote.has-cyan-bluish-gray-background-color blockquote p {
+    color: #000;
+}
+
+.wp-block-pullquote.is-style-solid-color blockquote {
+    max-width: 90%;
+    padding-left: 0;
+}
+
+.kt-post-socials-share-wrapper {
+    padding-top: 10px;
+}
+
+.kata-default-post .kata-tags-links a {
+    font-weight: 400;
+    padding: 6px 13px 8px 13px;
+}
+
+.kata-default-post .kata-post-social-share {
+    margin: 45px 0 0 0;
+}
+
+.kata-default-post .kata-post-tags {
+    margin-top: 60px;
+}
+
+.kata-default-post .kata-post-social-share a {
+    background: #f4f5f7;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 2.5;
+    text-align: center;
+    margin-right: 25px;
+    transition: all 0.26s ease;
+    padding-top: 2px;
+}
+
+.kata-default-post .kata-post-social-share a:hover {
+    background: #ffda00;
+}
+
+.kata-default-post .format-aside .kata-post-default-meta {
+    border-left: none;
+    margin-top: 0;
+}
+
+.kata-default-post .format-aside .kata-post-date-wrap,
+.kata-default-post .format-aside .kata-post-author-wrap {
+    display: inline-block;
+}
+
+.kata-default-post .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3em 0 3em -0.8em;
+    width: calc(100% + 1.6em);
+}
+
+.kata-default-post .gallery-item {
+    margin: 0.8em 0;
+    padding: 0 0.8em;
+    width: 100%;
+}
+
+.kata-default-post .gallery-caption {
+    display: block;
+    margin-top: 0.8em;
+}
+
+.kata-post-author-wrap,
+.kata-post-date-wrap {
+    margin: 10px 0 0;
+    display: inline-block;
+}
+
+.kata-post-date-wrap:before {
+    display: inline-block;
+    content: "";
+    background-color: #ffda00;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.col-sm-12 .kata-author-wrapper {
+    margin: 40px -20px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.01);
+}
+
+/* Loop */
+.kata-default-loop.loop-two {
+    margin-bottom: 83px;
+}
+
+.kata-default-loop .post-content-header .row {
+    margin: 0 -10px;
+}
+
+.kata-default-loop.loop-two .kata-post-thumbnail img {
+    margin: 0;
+    width: auto;
+}
+
+.kata-default-loop .kata-post-title-loop-two {
+    font-size: 33px;
+    line-height: 1.35em;
+    font-weight: 700;
+    color: #010203;
+    word-break: break-word;
+    word-wrap: break-word;
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.kata-post-title-loop-two a {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .4s ease;
+    text-decoration: none !important;
+    padding-bottom: 1px;
+}
+
+.kata-post-title-loop-two a:hover {
+    background-size: 100% 2px;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+.kata-post-title-loop-two a {
+    position: static;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    margin: inherit;
+    color: inherit;
+    line-height: inherit;
+}
+
+.kata-default-loop.loop-two .kata-post-categories {
+    margin-top: 0;
+}
+
+.kata-post-excerpt a.ktbp-readmore {
+    background: #fff;
+    color: #000;
+    padding: 15px 45px 15px 25px;
+    line-height: 1;
+    border: 1px solid #e7e8e9;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.kata-post-excerpt a.ktbp-readmore:hover {
+    text-decoration: underline
+}
+
+.kata-post-excerpt a.ktbp-readmore:before,
+.kata-post-excerpt a.ktbp-readmore:after {
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    margin-top: -5px; 
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #000;
+}
+
+.kata-post-excerpt a.ktbp-readmore:after {
+    content: "";
+    border-width: 4px;
+    margin-top: -4px;
+    right: 26px;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+}
+
+.kata-default-loop.loop-two:not(.kt-post-notitle) .kata-post-excerpt a.ktbp-readmore {
+    display: none;
+}
+
+.kata-post-excerpt p,
+.kata-post-content p,
+.kata-post-content div {
+    font-family: "Noto Serif",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 1.75;
+    color: #414243;
+    line-break: normal;
+}
+
+p.has-large-font-size,
+.kata-post-content p.has-large-font-size {
+    font-size: 36px
+}
+
+p.has-small-font-size,
+.kata-post-content p.has-small-font-size {
+    font-size: 14px
+} 
+
+.kata-post-content > h3,.kata-post-content > h4 {
+    padding-top: 15px;
+}
+
+.kata-post-content > h2 {
+    padding-top: 20px;
+}
+
+.kata-default-loop.loop-two .kata-post-content-wrap {
+    padding-right: 20px;
+    margin-top: 26px;
+}
+
+.post-password-form label, .post-password-form input {
+    display: inline-block !important;
+    height: 38px;
+    vertical-align: baseline;
+}
+
+.post-password-form input[type="submit"] {
+    margin-left: 5px;
+    vertical-align: top;
+}
+
+
+
+/* mejs Player */
+#kata-site .mejs-controls, #kata-site .mejs-embed, #kata-site .mejs-embed body {
+    background-color: #f1f2f3;
+    border-radius: 40px;
+}
+
+#kata-footer .mejs-controls, #kata-footer .mejs-embed, #kata-footer .mejs-embed body {
+    background-color: #ffffff12;
+}
+
+#kata-site .mejs-container {
+    min-height: 80px;
+    border-radius: 40px;
+    background: transparent;
+}
+
+#kata-site .mejs-controls {
+    height: 80px;
+    align-items: center
+}
+
+.mejs-controls * {
+    font-family: "Commissioner",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.mejs-controls .mejs-button.mejs-playpause-button {
+    width: 70px;
+    height: 50px;
+    padding-left: 6px;
+}
+
+.kata-sidebar .mejs-controls .mejs-button.mejs-playpause-button {
+    width: 60px
+}
+
+.mejs-controls .mejs-button > button {
+    background-color: #ffda00;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.mejs-controls .mejs-button > button:hover {
+    background-color: #fff;
+}
+
+.mejs-controls .mejs-button.mejs-volume-button {
+    width: 70px;
+    height: 30px;
+    padding-left: 30px;
+}
+ 
+.kata-sidebar .mejs-controls .mejs-button.mejs-volume-button {
+    width: 30px;
+    position: relative;
+    padding-left: 5px;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    width: 70px;
+    margin-right: 20px
+}
+
+.kata-sidebar .mejs-controls .mejs-horizontal-volume-slider,
+.kata-sidebar .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    position: absolute;
+    right: -90px;
+    display: none !important;
+}
+
+.kata-sidebar .mejs-controls .mejs-button.mejs-volume-button:hover .mejs-horizontal-volume-slider,
+.kata-sidebar .mejs-controls .mejs-button.mejs-volume-button:hover .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    display: block
+}
+
+.mejs-controls .mejs-button.mejs-volume-button > button {
+    width: 30px;
+    height: 30px;
+    background-size: 16px;
+}
+
+.mejs-controls .mejs-playpause-button.mejs-play > button,
+.mejs-controls .mejs-playpause-button.mejs-replay > button {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik04IDV2MTRsMTEtN3oiLz48L3N2Zz4=");
+}
+
+.mejs-controls .mejs-playpause-button.mejs-pause > button {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik02IDE5aDRWNUg2djE0em04LTE0djE0aDRWNWgtNHoiLz48L3N2Zz4=")
+}
+
+.mejs-controls .mejs-volume-button.mejs-unmute > button {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik03IDl2Nmg0bDUgNVY0bC01IDVIN3oiLz48L3N2Zz4=")
+}
+
+.mejs-controls .mejs-volume-button.mejs-mute > button {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0zIDl2Nmg0bDUgNVY0TDcgOUgzem0xMy41IDNjMC0xLjc3LTEuMDItMy4yOS0yLjUtNC4wM3Y4LjA1YzEuNDgtLjczIDIuNS0yLjI1IDIuNS00LjAyek0xNCAzLjIzdjIuMDZjMi44OS44NiA1IDMuNTQgNSA2Ljcxcy0yLjExIDUuODUtNSA2LjcxdjIuMDZjNC4wMS0uOTEgNy00LjQ5IDctOC43N3MtMi45OS03Ljg2LTctOC43N3oiLz48L3N2Zz4=")
+}
+
+.mejs-controls .mejs-button.mejs-fullscreen-button > button {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik03IDE0SDV2NWg1di0ySDd2LTN6bS0yLTRoMlY3aDNWNUg1djV6bTEyIDdoLTN2Mmg1di01aC0ydjN6TTE0IDV2MmgzdjNoMlY1aC01eiIvPjwvc3ZnPg==")
+}
+
+.mejs-controls .mejs-button.mejs-unfullscreen > button {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik01IDE2aDN2M2gydi01SDV2MnptMy04SDV2Mmg1VjVIOHYzem02IDExaDJ2LTNoM3YtMmgtNXY1em0yLTExVjVoLTJ2NWg1VjhoLTN6Ii8+PC9zdmc+") 
+}
+
+.mejs-controls .mejs-time {
+    color: #7a7b7c;
+    font-size: 13px;
+}
+
+#kata-site .mejs-controls .mejs-time-loaded,
+#kata-site .mejs-controls .mejs-time-current,
+#kata-site .mejs-controls .mejs-time-handle-content,
+#kata-site .mejs-controls .mejs-time-hovered,
+#kata-site .mejs-controls .mejs-time-hovered.negative,
+#kata-site .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+#kata-site .mejs-controls .mejs-time-rail .mejs-time-total  {
+    border-radius: 5px;
+    height: 5px;
+}
+
+#kata-site .mejs-controls .mejs-time-handle-content {
+    background: #ffda00;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    margin-top: -5px;
+    transition: all 0.12s ease;
+}
+
+#kata-site .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+#kata-site .mejs-controls .mejs-time-rail .mejs-time-total {
+    background-color: #ffffff;  
+    margin-top: 8px;
+}
+
+#kata-site .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    margin-top: 0;
+}
+
+#kata-site .mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 5px;
+}
+
+#kata-site .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+#kata-site .mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #ffda00;
+    border-radius: 5px;
+    height: 5px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-float-corner {
+    border-top-color: #ffda00;
+}
+.mejs-controls .mejs-time-rail .mejs-time-float {
+    font-family: "Commissioner",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #ffda00;
+    border: none;
+    color: #000;
+    border-radius: 2px;
+    line-height: 13px;
+    font-size: 11px;
+}
+
+
+/* Responsive style */
+
+@media (max-width: 769px) {
+    .kata-post-default-meta {
+        display: none;
+    }
+
+    .kata-default-loop .kata-post-title-loop-two {
+        font-size: 26px;
+        margin-top: 5px;
+    }
+
+    .kata-default-loop.loop-two .kata-post-excerpt p {
+        font-size: 15px;
+    }
+
+    .kata-default-loop.loop-two .kata-post-categories,
+    .kata-default-loop.loop-two .kata-post-content-wrap,
+    .kata-default-loop.loop-two .kata-post-categories {
+        margin: 0 auto;
+        padding-right: 0;
+    }
+
+    .kata-default-loop.loop-two .kata-post-content-wrap {
+        border: none;
+    }
+
+    .kata-default-loop.loop-two .kata-post-categories {
+        margin-top: 10px;
+    }
+
+    .kata-default-loop .kata-default-post .kata-post-title {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .kata-default-post .post-content-header {
+        padding-left: 0;
+    }
+
+    .kata-default-post.loop-two .kata-post-thumbnail {
+        margin: 0 auto 20px;
+    }
+
+    .kata-default-loop.loop-two .kata-post-excerpt {
+        max-width: 100%;
+    }
+
+    .kata-default-post .kata-post-thumbnail img {
+        margin: -50px 0 50px 0;
+    }
+
+    .kata-default-post .kata-post-content {
+        padding: 5px 0;
+    }
+
+    .kata-default-post .kata-post-content blockquote p {
+        font-size: 18px;
+    }
+
+    .kata-default-post .kata-post-content blockquote p {
+        font-size: 18px;
+    }
+
+    .kata-default-post {
+        margin: 20px 0 0 0;
+    }
+
+    .kata-default-loop.loop-two {
+        margin: 30px 0;
+    }
+
+    .kata-default-post.sticky .kata-post-details {
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width: 481px) {
+    .kata-default-post {
+        margin: 10px 0 0 0;
+    }
+
+    .kata-default-post .kata-post-title h1,
+    .kata-default-post .kata-post-title {
+        font-size: 40px;
+    }
+
+    .kata-default-post .kata-post-content p {
+        font-size: 16px;
+    }
+
+    .kata-default-post.sticky .kata-post-details {
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .kata-default-post .gallery-columns-2 .gallery-item {
+        max-width: 50%;
+    }
+
+    .kata-default-post .gallery-columns-3 .gallery-item {
+        max-width: 33.33%;
+    }
+
+    .kata-default-post .gallery-columns-4 .gallery-item {
+        max-width: 25%;
+    }
+
+    .kata-default-post .gallery-columns-5 .gallery-item {
+        max-width: 20%;
+    }
+
+    .kata-default-post .gallery-columns-6 .gallery-item {
+        max-width: 16.66%;
+    }
+
+    .kata-default-post .gallery-columns-7 .gallery-item {
+        max-width: 14.28%;
+    }
+
+    .kata-default-post .gallery-columns-8 .gallery-item {
+        max-width: 12.5%;
+    }
+
+    .kata-default-post .gallery-columns-9 .gallery-item {
+        max-width: 11.11%;
+    }
+}

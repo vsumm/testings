@@ -1,0 +1,94 @@
+/**
+ * Kata Admin styles.
+ *
+ * @author  ClimaxThemes
+ * @package Kata Plus
+ * @since   1.0.0
+ */
+
+ #wpcontent, #wpfooter {
+    padding-right: 20px;
+}
+
+.kata-admin #kata-license input[type=submit]{
+    right: unset;
+    left: 5px;
+}
+
+.kata-admin .help-links{
+    float: right;
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.kata-dashboard-box{    
+    text-align: right;
+}
+
+.kata-help-intro .help-links i{
+    float: right;
+    margin: 4px 0 0 8px;
+}
+
+.kt-dashboard-box-title i{
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.kata-admin .kata-col-sm-4 a:after{
+    content: "\e629";
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.table.table-striped .current-status-icon {
+    margin-right: 0;
+    margin-left: 7px;
+    float: right;
+}
+
+span.current-value, span.need-value {
+    float: right;
+}
+
+.kata-admin.about-wrap a.solution {
+    float: left;
+}
+
+#customize-controls .customize-info .panel-title:before, .accordion-section>h3:before, .customize-section-title>h3:before{
+    padding-right: 0;
+    padding-left: 8px;
+    margin-right: 0;
+    margin-left: -2px;
+}
+
+#customize-controls .customize-control .styler-dialog-btn {
+    float: left;
+    margin: -30px 5px 12px 1px;
+}
+
+.customize-control-kirki-switch label {
+    float: right !important;
+}
+
+body .customize-control-kirki-switch .switch-on, #customize-theme-controls .customize-control-kirki-radio-buttonset .buttonset .switch-label:first-of-type {
+    border-radius: 0 3px 3px 0;
+    border-right: 1px solid #d5dadf;
+    border-left: none;
+}
+
+body .customize-control-kirki-switch .switch-off, #customize-theme-controls .customize-control-kirki-radio-buttonset .buttonset .switch-label:last-of-type {
+    border-radius: 3px 0 0 3px;
+    border-left: 1px solid #d5dadf;
+    border-right: none;
+}
+
+.customize-section-description-container+#customize-control-custom_css:last-child {
+    margin-right: 0;
+    margin-left: -12px;
+}
+
+#customize-controls input[type=checkbox], #customize-controls input[type=radio] {
+    margin: 4px 0 7px 5px;
+}

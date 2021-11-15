@@ -1,0 +1,125 @@
+.woocommerce-account .woocommerce {
+    margin-top: 50px;
+}
+
+@media( min-width: 768px ) {
+    .woocommerce .col2-set .col-1,
+    .woocommerce-page .col2-set .col-1,
+    .woocommerce .col2-set .col-2,
+    .woocommerce-page .col2-set .col-2 {
+        max-width: 48%;
+    }
+}
+
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+    max-width: 100%;
+}
+
+.woocommerce-account #site-content .post-inner {
+    padding-top: 0
+}
+
+.woocommerce-account #site-content .woocommerce {
+    max-width: 1600px;
+    padding: 0 6vw;
+    margin: 0 auto
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    margin: 0 0 2rem
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+    margin: 0;
+    padding: 0
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li {
+    list-style: none;
+    padding: .5rem 0;
+    font-size: 18px
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li:first-child {
+    padding-top: 0
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li a {
+    box-shadow: none;
+    text-decoration: none;
+    font-weight: 600;
+    color: #aaa
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li a:hover {
+    color: #000;
+    text-decoration: underline
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li.is-active a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content p {
+    font-size: 18px
+}
+
+.woocommerce-account .woocommerce-MyAccount-content form h3 {
+    margin-top: 0
+}
+
+.woocommerce-account table.account-orders-table {
+    margin-top: 0;
+    border: 0
+}
+
+.woocommerce-account table.account-orders-table td,
+.woocommerce-account table.account-orders-table th,
+.woocommerce-account table.account-orders-table tr {
+    border: 0
+}
+
+.woocommerce-account table.account-orders-table td {
+    padding-left: 1.5rem
+}
+
+.woocommerce-account table.account-orders-table thead {
+    border-bottom: 1px solid #ddd
+}
+
+.woocommerce-account table.account-orders-table .button {
+    margin: 0 .35rem .35rem 0;
+    width: 80%
+}
+
+.woocommerce-account table.account-orders-table:not(.has-background) tbody tr:nth-child(2n) td {
+    background: #eee
+}
+
+.woocommerce-account table.account-orders-table:not(.has-background) tbody tr:nth-child(2n+1) td {
+    background: #fff
+}
+
+.woocommerce-account .woocommerce-EditAccountForm input {
+    border: 1px solid #ddd
+}
+
+.woocommerce-account .woocommerce-EditAccountForm fieldset {
+    border: .2rem solid #ddd
+}
+
+.woocommerce-account .woocommerce-EditAccountForm button {
+    margin-top: 3rem
+}
+
+.logged-in.woocommerce-account #site-content .woocommerce {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row
+}

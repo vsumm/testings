@@ -1,0 +1,122 @@
+.kata-plus-domain-checker {
+    position: relative;
+}
+
+.kata-plus-domain-checker .input-group {
+    max-width: 100% !important;
+}
+
+.kata-plus-domain-checker input[type="text"] {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.10);
+    border: 1px solid #eee;
+    padding: 19px 23px;
+    border-radius: 10px;
+    margin-right: 0;
+    width: 100%;
+}
+
+.kata-plus-domain-checker input[type="text"]:focus {
+    outline: none;
+}
+
+.kata-plus-domain-checker .pure-form+div {
+    max-width: 100% !important;
+}
+
+.kata-plus-domain-checker .input-group-btn button[type="submit"] {
+    background: black;
+    color: #fff;
+    border: none;
+    padding: 9px 47px;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.16);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.kata-plus-domain-checker #loading {
+    display: none;
+    text-align: center;
+}
+
+.kata-plus-domain-checker #loading[style="display: inline;"] {
+    display: block !important;
+    display: none;
+    text-align: center;
+}
+
+.kata-plus-domain-checker .result {
+    line-height: 2;
+}
+
+.kata-plus-domain-checker .result .callout {
+    padding: 5px 15px 7px;
+    border-radius: 3px;
+}
+
+.kata-plus-domain-checker .result .callout-danger {
+    background: rgba(255, 0, 0, 0.10);
+    color: #cc1b1b;
+}
+
+.kata-plus-domain-checker .result .callout-success {
+    background: rgba(0, 255, 85, 0.1);
+    color: #0dad42;
+}
+
+.kata-plus-domain-checker .result .alert-warning {
+    background: rgba(226, 215, 0, 0.1);
+    color: #ad870d;
+}
+
+.kata-plus-domain-checker .callout .col-xs-10,
+.kata-plus-domain-checker .callout .col-xs-2 {
+    display: inline-block;
+}
+
+.kata-plus-domain-checker .callout .col-xs-2 {
+    float: right;
+}
+
+.kata-plus-domain-checker .callout .col-xs-2 a {
+    color: inherit;
+    display: inline-block;
+    line-height: 1;
+}
+
+.kata-plus-domain-checker .callout .col-xs-2 a#buy {
+    background: #b6f9ca;
+    border-radius: 60px;
+    padding: 4px 13px 5px;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.kata-plus-domain-checker .callout .col-xs-2 a button {
+    background: #ffbaba;
+    color: inherit;
+    border: none;
+    border-radius: 60px;
+    padding: 6px 13px 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+@media(max-width:480px) {
+    .kata-plus-domain-checker .input-group-btn {
+        position: relative;
+        top: auto;
+        right: auto;
+        display: block;
+        width: 100%;
+    }
+
+    .kata-plus-domain-checker .input-group-btn button[type="submit"] {
+        display: block;
+        width: 100%;
+    }
+}

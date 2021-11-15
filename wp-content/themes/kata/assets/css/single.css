@@ -1,0 +1,297 @@
+/* single */
+.kata-post-content a {
+    text-decoration: underline;
+}
+
+.kata-post-content .wp-block-button a {
+    text-decoration: none;
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-text-color):hover, 
+.wp-block-button__link.is-style-outline:not(.has-text-color):hover {
+    color: #ffda00;
+}
+
+.single .post:not(.has-post-thumbnail) .kata-default-post .kata-post-details {
+    padding-top: 10px;
+}
+
+.kata-default-post .kata-tags-links { 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.kata-post-tags > span:not(.kata-tags-links) {    
+    color: #000000;    
+    font-size: 14px;    
+    line-height: 1.35em;    
+    padding-top: 4px;    
+    padding-bottom: 4px;
+    margin: 0 6px 0 11px;
+    font-weight: 600;
+}
+
+.kata-default-post .kata-tags-links a {
+    color: #202122;
+    margin-right: 8px;
+
+}
+
+.kata-default-post .kata-post-social-share {
+    margin: 45px 0 0 0;
+}
+
+.kata-default-post .kata-post-tags {
+    margin-top: 80px;
+    clear: both;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #E3E4E6;
+    padding-top: 28px;
+    padding-bottom: 23px;
+}
+
+.kata-default-post .kata-post-social-share a {
+    background: #f4f5f7;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 2.5;
+    text-align: center;
+    margin-right: 15px;
+    transition: all 0.26s ease;
+    padding-top: 2px;
+}
+
+.kata-default-post .kata-post-social-share a:hover {
+    background: #ffda00;
+}
+
+.kata-default-post .post-content-header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.kata-default-post .format-aside .kata-post-default-meta {
+    border-left: none;
+    margin-top: 0;
+}
+
+.kata-default-post .format-aside .kata-post-date-wrap,
+.kata-default-post .format-aside .kata-post-author-wrap {
+    display: inline-block;
+}
+
+.kata-default-post .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3em 0 3em -0.8em;
+    width: calc(100% + 1.6em);
+}
+
+.kata-default-post .gallery-item {
+    margin: 0.8em 0;
+    padding: 0 0.8em;
+    width: 100%;
+}
+
+.kata-default-post .gallery-caption {
+    display: block;
+    margin-top: 0.8em;
+}
+
+.kata-post-author-wrap {
+    margin-top: 17px;
+}
+
+.kata-post-content .wp-block-latest-comments__comment-author {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000
+}
+
+.kata-post-content .wp-block-latest-comments__comment-author:hover {
+    text-decoration: underline;
+}
+
+.kata-post-content .wp-block-latest-comments__comment-link {
+    font-size: 0.82em;
+}
+
+.kata-post-content .wp-block-latest-comments__comment-date {
+    color: #919293;
+}
+
+.kata-post-content .wp-block-calendar {
+    margin-bottom: 30px;
+}
+
+.wp-block-search .wp-block-search__input {
+    border-color: #e7e8e9;
+    min-height: 38px;
+}
+
+.wp-block-search .wp-block-search__label {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.wp-block-search .wp-block-search__button {
+    font-family: inherit;
+}
+
+.kata-sidebar select {
+    width: 100%;
+}
+
+.wp-block-archives-list li {
+    color: #7d7f82;
+    font-size: 14px;
+    list-style: none;
+}
+
+.wp-block-archives-list li a {
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.wp-block-archives-list li a:hover {
+    text-decoration: underline;
+    color: #403cf2;
+}
+
+.kata-post-content {
+    font-family: "Noto Serif",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.kata-post-content button, .kata-post-content input[type="submit"] {
+    font-family: "Commissioner",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.kata-default-loop-content-single .kata-post-default-meta {
+    margin-bottom: 16px;
+}
+
+.kata-post-content .wp-block-latest-posts li a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.kata-post-content .wp-block-latest-posts li a:hover {
+    text-decoration: underline;
+}
+
+/* Author box
+--------------------------- */
+.kata-author-box {
+    padding-top: 0px;
+    padding-right: 6%;
+    padding-left: 0px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    border-style: none;
+    border-bottom: 1px solid #E3E4E6;
+}
+
+@media (max-width: 768px) {
+    .kata-author-box {
+        padding-right: 0;
+        text-align: center;
+    }
+}
+
+.kata-author-box .kata-author-thumbnail {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.kata-author-box .kata-author-thumbnail img {
+    border-radius: 50px;
+    width: 60px
+}
+
+@media (max-width: 768px) {
+    .kata-author-box .kata-author-thumbnail {
+        display: block;
+        margin-right: 0px;
+    }
+.kata-author-box .kata-author-thumbnail img {
+        width: 96px;
+    }
+}
+
+.kata-author-box .kata-plus-author-name {
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 700;
+    padding-bottom: 6px;
+    text-transform: capitalize;
+    font-family: 'Commissioner',Arial,Roboto,Sans-serif;
+}
+
+.kata-author-box .kata-author-box-description {
+    font-size: 15px !important;
+    line-height: 1.6em !important;
+    font-weight: 300;
+}
+
+.kata-author-box .kata-plus-author-content {
+    display: inline-block;
+    width: calc(100% - 140px);
+    vertical-align: top;
+    margin-top: 14px;
+}
+
+@media (max-width: 480px) {
+    .kata-author-box .kata-plus-author-content {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.kata-default-loop-content-single.col-lg-9 .kata-default-post {
+    max-width: 1045px;
+}
+
+@media (max-width: 1024px) {
+    .kata-default-loop-content-single {
+        margin-top: 0px
+    }
+}
+
+.wp-block-embed-wordpress-tv.alignfull.wp-block-embed.is-type-video {
+    width: 100%;
+    position: relative;
+    max-width: initial;
+    border-left: 0;
+    text-align: center;
+}
+
+.wp-block-embed-wordpress-tv.alignfull.wp-block-embed.is-type-video .wp-block-embed__wrapper {
+    background: #010203;
+}
+
+.wp-block-embed-wordpress-tv.alignfull.wp-block-embed.is-type-video iframe {
+    width: 100%;
+}
+
+.no-sidebar .alignfull,
+.no-sidebar .blockquote.wp-block-pullquote.alignfull,
+.no-sidebar .wp-block-pullquote:not(.is-style-solid-color).alignfull,
+.no-sidebar .wp-block-embed-wordpress-tv.alignfull.wp-block-embed.is-type-video {
+    width: 100vw;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    max-width: initial;
+    border-left: 0;
+}

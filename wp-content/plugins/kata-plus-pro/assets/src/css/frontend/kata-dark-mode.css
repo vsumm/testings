@@ -1,0 +1,19 @@
+.wp-dark-mode-switcher {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.wp-dark-mode-switcher .kata-icon {
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.wp-dark-mode-switcher:not(.active) .kata-icon.sun {
+    display: none;
+}
+.wp-dark-mode-switcher.active .kata-icon.moon {
+    display: none;
+}

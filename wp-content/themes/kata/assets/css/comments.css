@@ -1,0 +1,336 @@
+/* Comments
+-------------------------------------------------- */
+.kata-comments-area {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.kata-comments-area .comment-respond {
+    margin: 0 auto;
+}
+
+.kata-comments-area textarea {
+    padding: 17px 15px;
+    margin-bottom: 28px;
+}
+
+.kata-comments-area .comment-reply-title {
+    color: #070809;
+    font-size: 33px;
+    font-weight: 700;
+    font-family: 'Commissioner',Arial,Roboto,Sans-serif;
+}
+
+.comment .comment-respond .comment-reply-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.kata-comments-area .comment-respond {
+    padding-top: 35px
+}
+
+.kata-comments-area textarea,
+.kata-comments-area input[type="text"],
+.kata-comments-area input[type="email"] {
+    border: 1px solid #e7e8e9;
+    width: 100%;
+}
+
+.kata-comments-area p {
+    position: relative;
+}
+
+.kata-comments-area label {
+    color: #929394;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.kata-comments-area input[type="text"],
+.kata-comments-area input[type="email"] {
+    padding: 17px 15px;
+}
+
+.kata-comments-area .comment-form-comment label,
+.kata-comments-area .comment-form-url label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.kata-comments-area .comment-form-author,
+.kata-comments-area .comment-form-email {
+    width: calc(50% - 15px);
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+    min-witdh: 80px;
+}
+
+.kata-comments-area .comment-form-email {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+    clear: right;
+}
+
+.kata-comments-area .comment-form-url {
+    clear: both;
+}
+
+@media (max-width: 768px) {
+    .kata-comments-area .comment-form-author,
+    .kata-comments-area .comment-form-email {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+}
+
+.kata-comments-area input[type="submit"] {
+    font-size: 16px;
+    background: #ffda00;
+    border: none;
+    color: #000;
+    border-radius: 1px;
+    padding: 20px 23px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Commissioner',Arial,Roboto,Sans-serif;
+}
+
+.kata-comments-area input[type="submit"]:focus,
+.kata-comments-area input[type="submit"]:active {
+    background: #000;
+    color: #fff;
+}
+
+#cancel-comment-reply-link {
+    padding: 7px 10px;
+    font-size: 12px !important;
+    font-weight: 400;
+    display: inline-block;
+    margin: 0 0 5px 8px;
+    background: #ffda00;
+    transform: translateY(-1px);
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.kata-comments-area input[type="submit"]:hover,
+#cancel-comment-reply-link:hover {
+    background: #000;
+    color: #fff;
+}
+
+.kata-comments-area .form-submit {
+    margin-bottom: 50px;
+}
+
+.kata-comments-area .comment-form-cookies-consent label {
+    display: inline;
+    line-height: 1.2;
+}
+
+.kata-comments-area .kata-comments-title {
+    color: #070809;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    border-top: 1px solid #e7e8e9;
+    padding-top: 40px;
+}
+
+.kata-comments-area .kata-comment-list li.comment,
+.kata-comments-area .kata-comment-list li.pingback,
+.kata-comments-area .kata-comment-list li.trackback {
+    list-style: none;
+}
+
+.kata-comments-area .kata-comment-list li.bypostauthor {
+    background: rgb(251, 251, 251, 0.4);
+}
+
+.kata-comments-area .comment-author.vcard .fn,
+.kata-comments-area .says {
+    vertical-align: middle;
+}
+
+.kata-comments-area .fn {
+    color: #070809;
+    font-size: 0.96em;
+}
+
+.kata-comments-area .comment-author .fn a {
+    color: #070809;
+    margin-right: 3px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.kata-comments-area a:hover,
+.kata-comments-area .comment-author .fn a:hover {
+    text-decoration: underline;
+}
+
+.kata-comments-area .says {
+    color: #070809;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+
+.kata-comments-area .comment-author.vcard {
+    float: left;
+    vertical-align: top;
+}
+
+.kata-comments-area .comment-metadata {
+    float: right;
+    clear: right;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.kata-comments-area .comment-metadata a {
+    color: #929394;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.kata-comments-area .comment-metadata a:hover {
+    color: #707273;
+    text-decoration: underline;
+}
+
+.kata-comments-area .children {
+    margin-left: 80px;
+}
+
+.kata-comments-area .comment-author.vcard img {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 45px;
+}
+
+.kata-comments-area .comment-content {
+    margin-left: 60px;
+    clear: both;
+}
+
+.kata-comments-area .comment-content p {
+    font-size: 0.9em;
+}
+
+.kata-comments-area .comment-awaiting-moderation {
+    display: block;
+    margin-left: 105px;
+    color: #929394;
+}
+
+.kata-comments-area .reply {
+    margin-left: 60px;
+    position: relative;
+}
+
+.kata-comments-area img.avatar.avatar-32.photo {
+    margin-right: 20px;
+}
+
+.kata-comments-area .reply a {
+    color: #070809;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.kata-comments-area .reply a:hover {
+    color: #403cf2;
+}
+
+.kata-comments-area article.comment-body {
+    margin-top: 60px;
+}
+
+.kata-comments-area .reply:before {
+    position: absolute;
+    content: url(../img/svg/reply.svg);
+    left: -20px;
+    top: 3px;
+}
+
+.kata-comments-area span.label-wrap {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.kata-comments-area input[type=checkbox],
+.kata-comments-area input[type=radio] {
+    display: inline-block;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    line-height: 12px;
+    min-height: 0;
+    margin-left: 0;
+    background: #ffffff;
+    margin: 4px 5px 7px 0;
+    vertical-align: middle;
+    appearance: none;
+    border: 1px solid #e1e2e3;
+    border-radius: 0; 
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.03) inset; 
+}
+
+.kata-comments-area input[type=radio] {
+    border-radius: 20px;
+}
+
+.kata-comments-area input[type=checkbox]:checked, .kata-comments-area input[type=radio]:checked {
+    appearance: auto;
+}
+
+#popup input[type=checkbox]:focus {
+    box-shadow: 0 0 0 1px #ffffff1c
+}
+
+@media (max-width: 768px) {
+    .kata-comments-area .comment-content {
+        margin: 0;
+    }
+
+    .kata-comments-area .comment-author.vcard img {
+        margin-bottom: 20px;
+    }
+
+    .kata-comments-area .comment-author.vcard .fn,
+    .kata-comments-area .says {
+        display: block;
+    }
+
+    .kata-comments-area .children {
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .kata-comments-area .reply {
+        margin-left: 18px;
+    }
+
+    .kata-comments-area .comment-reply-title small {
+        display: block;
+    }
+
+    .kata-comments-area {
+        width: 95%;
+    }
+
+    .kata-comments-area .kata-comments-title {
+        font-size: 24px;
+    }
+}

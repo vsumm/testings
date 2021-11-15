@@ -1,0 +1,43 @@
+.kata-plus-content-toggle {
+    display: inline-block;
+    position: relative;
+}
+
+.kata-plus-content-toggle-content-wrap {
+    right: 0;
+    min-width: 320px;
+    z-index: 99;
+    background: #fff;
+}
+
+.kata-plus-content-toggle .container,
+.kata-plus-content-toggle .elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 100%;
+}
+
+.kata-plus-content-toggle .elementor-container .elementor-widget-wrap>.elementor-element {
+    width: 100%;
+}
+
+.kata-plus-content-toggle .kata-plus-content-toggle-click {
+    cursor: pointer;
+}
+
+.kata-plus-content-toggle .kata-plus-content-toggle-click i {
+    font-size: 30px;
+}
+
+.kata-plus-content-toggle .content-toggle-text {
+    margin-bottom: 0;
+}
+
+.kata-plus-content-toggle-content-wrap>.elementor {
+    z-index: 999;
+}
+
+@media(max-width:768px) {
+    .kata-builder-wrap .kata-plus-hamburger-menu .icons-wrap {
+        position: relative;
+        z-index: 9999;
+    }
+}
